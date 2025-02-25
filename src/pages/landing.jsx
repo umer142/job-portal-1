@@ -21,8 +21,9 @@ const LandingPage = () => {
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
       <section className="text-center ">
         <h1 className="flex flex-col items-center justify-center gradient-title font-extrabold text-4xl sm:text-6xl lg:text-8xl tracking-tighter py-4">
-          Find Your Dream Job With
-          <span className="flex items-center gap-2 sm:gap-6">
+          Find Your Dream Job <br />{" "}
+          <span className="text-yellow-600"> With</span>
+          <span className="flex items-center text-yellow-300 gap-2 sm:gap-6">
             Emperi Staffing
           </span>
         </h1>
@@ -63,7 +64,7 @@ const LandingPage = () => {
         </CarouselContent>
       </Carousel>
 
-      <div className="flex justify-center items-center w-[100vw] h-[80vh]">
+      <div className="flex justify-center items-center w-[90vw] h-[70vh]">
         <article className="w-[80vw] h-[70vh] bg-gray-800 shadow p-4 space-y-2 rounded-md hover:-translate-y-2 duration-300">
           <svg
             viewBox="0 0 24 24"
@@ -82,17 +83,38 @@ const LandingPage = () => {
               stroke="currentColor"
             ></path>
           </svg>
-          <h1 className="text-center font-extrabold font-serif text-4xl">
-            Blogs
-          </h1>
-          <p className="text-sm w-full text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            eget massa interdum, rhoncus ex dignissim, ultricies tellus. Proin
-            convallis mauris ut est pulvinar aliquet. Nulla facilisi. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Nisi unde
-            necessitatibus veritatis eius labore! Saepe incidunt laboriosam
-            corrupti minus magni soluta, voluptate cupiditate, ratione nostrum
-            aliquam rem tempore earum aut! Corporis obcaecati molestiae saepe!
+          <p className="text-sm text-center font-serif w-full text-gray-400">
+            <span className="text-4xl  text-yellow-500 font-bold max-sm:text-2xl">
+              Why Choose Emperi Staffing?{" "}
+            </span>
+            <br />
+            <br />
+            <span className="text-3xl text-yellow-300 max-sm:text-xl font-semibold">
+              Industry Expertise:
+            </span>{" "}
+            <br />
+            <br />
+            We have a deep understanding of market trends and industry demands.{" "}
+            <br />
+            Wide Employer Network: Our strong connections with top companies{" "}
+            <br />
+            ensure more job opportunities for candidates. Customized Approach:{" "}
+            <br />
+            We provide tailored solutions for both job seekers and employers.{" "}
+            <br />
+            Ongoing Support: From resume building to post-placement support, we{" "}
+            <br />
+            are with you at every step. Confidential and Reliable: We prioritize{" "}
+            <br />
+            your privacy and ensure a smooth, trustworthy hiring process. <br />
+            If you’re ready to take the next step in your career, Emperi
+            Staffing <br />
+            is here to help. Whether you need career guidance, job placement, or{" "}
+            <br />
+            interview preparation, we are committed to ensuring your success.
+            Join <br />
+            hands with us and let’s shape your future together! For more <br />
+            information, visit our website or contact us today. <br />
           </p>
         </article>
       </div>
