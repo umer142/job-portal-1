@@ -91,8 +91,7 @@ const LandingPage = () => {
             <br />
             <span className="text-3xl text-yellow-300 max-sm:text-xl font-semibold">
               Industry Expertise:
-            </span>{" "}
-            <br />
+            </span>
             <br />
             We have a deep understanding of market trends and industry demands.{" "}
             <br />
@@ -109,12 +108,9 @@ const LandingPage = () => {
             your privacy and ensure a smooth, trustworthy hiring process. <br />
             If you’re ready to take the next step in your career, Emperi
             Staffing <br />
-            is here to help. Whether you need career guidance, job placement, or{" "}
+            is here to help. Whether you need career guidance, job placement, or
             <br />
             interview preparation, we are committed to ensuring your success.
-            Join <br />
-            hands with us and let’s shape your future together! For more <br />
-            information, visit our website or contact us today. <br />
           </p>
         </article>
       </div>
